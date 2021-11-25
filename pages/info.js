@@ -20,7 +20,7 @@ export default function Info() {
 
         <main className="container mx-auto z-50 relative p-10 w-full h-full overflow-y-auto md:w-full md:h-auto">
 
-          <div className="flex flex-col items-center justify-between gap-10 lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:flex-row">
+          <div className="flex flex-col items-stretch justify-between gap-10 lg:flex-row">
 
             <div className="bg-black bg-opacity-70 text-white p-7">
               {/* Doação pelo Cartão */}
