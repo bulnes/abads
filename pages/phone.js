@@ -4,14 +4,14 @@ export default function Phone() {
   const phones = [{
     tel: '0500 508 0707',
     value: '7,00',
-  },{
+  }, {
     tel: '0500 508 0720',
     value: '20,00',
-  },{
+  }, {
     tel: '0500 508 0740',
     value: '40,00',
   }]
-  
+
   return (
     <>
       <Head>
@@ -40,11 +40,11 @@ export default function Phone() {
               </h2>
 
               <p className="text-xl mb-5">
-                Faça suas doações pelo <span className="font-bold border-b pb-px">PIX</span> utilizando a chave: <span className="inline-block font-bold text-2xl border border-px p-3 mt-3 mx-auto hover:bg-white hover:text-black hover:border-black">abads@abads.org.br</span>
+                Faça suas doações pelo <span className="font-bold border-b pb-px">PIX</span> utilizando a chave: <span className="inline-block font-bold text-2xl border border-px p-3 mt-3 mx-auto hover:bg-white hover:text-black hover:border-black">doe@abads.org.br</span>
               </p>
 
-              <p className="text-xl">
-                Em casa de dúvidas, fala conosco pelo e-mail <a href="mail:doador@abads.org.br" title="doador@abads.org.br" className="font-bold text-2xl border-b pb-px">doador@abads.org.br</a>
+              <p className="text-lg">
+                Em casa de dúvidas, fala conosco pelo e-mail <a href="mail:doador@abads.org.br" title="doador@abads.org.br" className="font-bold border-b pb-px">doador@abads.org.br</a>
               </p>
             </div>
 
@@ -63,12 +63,12 @@ export default function Phone() {
               </div>
 
               <p className="text-sm">
-                Custo por chamada = R$ 0,39, para chamadas originadas em terminais fixos de telecomunicações e R$ 0,71, para chamadas originadas de terminais móveis de telecomunicações.
+                CUSTO DA LIGAÇÃO POR TELEFONE FIXO: R$ 0,39 + IMPOSTOS / CELULAR: R$ 0,71 + IMPOSTOS
               </p>
             </div>
 
           </div>
-          
+
         </main>
 
       </section>
