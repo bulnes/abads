@@ -61,8 +61,8 @@ export default function Info() {
               </p>
 
               <div className="text-center">
-                <div className="spect-w-16 aspect-h-9">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/0aTyj_VPSLc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="relative" style={{ paddingTop: '56.25%' }}>
+                  <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/0aTyj_VPSLc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
