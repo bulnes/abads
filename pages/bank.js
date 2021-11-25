@@ -36,7 +36,7 @@ export default function Bank() {
         style={{ backgroundImage: 'url("/church-of-the-king-j9jZSqfH5YI-unsplash.jpg")' }}
         className="bg-cover bg-no-repeat bg-center w-full h-screen relative flex items-center justify-center after:bg-blue-500 after:bg-opacity-40 after:w-full after:h-screen after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
 
-        <main className="container mx-auto z-50 relative p-10 bg-blue-300 bg-opacity-80">
+        <main className="container mx-auto z-50 relative p-10 bg-blue-300 bg-opacity-80 w-full h-full overflow-y-auto md:w-auto md:h-auto">
 
           <div>
             <h1 className="text-4xl uppercase border-b border-black pb-3 mb-5 font-bold">
