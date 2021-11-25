@@ -26,7 +26,7 @@ export default function Footer() {
               <h3 className="uppercase font-bold mb-5 text-xl">ONDE ESTAMOS</h3>
 
               <p>
-                Av. Morvan Dias de Figueiredo, 2801 Vila Guilherme, São Paulo SP, 02063-000
+                Av. Morvan Dias de Figueiredo, nº: 2801 – Vila Guilherme, São Paulo (SP) – 02063-000
               </p>
             </div>
 
@@ -42,13 +42,13 @@ export default function Footer() {
               </p>
 
               <p>
-                Atendimentos telefônicos de segunda a sexta (exceto feriados) das 8h00 às 12h00 e 13h00 às 17h00.
+                Atendimentos telefônicos de segunda a sexta (exceto feriados), das 8h00 às 12h00 e 13h00 às 17h00.
               </p>
             </div>
 
             <div>
               <h3 className="uppercase font-bold mb-5 text-xl">NOSSAS REDES</h3>
-              
+
               <ul className="list-disc pl-5">
                 <li><a href="https://pt-br.facebook.com/abads.org/" title="Facebook" target="_blank">Facebook</a></li>
                 <li><a href="https://twitter.com/abads_brasil" title="Twitter" target="_blank">Twitter</a></li>

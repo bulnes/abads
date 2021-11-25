@@ -42,7 +42,7 @@ export default function Info() {
               </h2>
 
               <p className="text-xl mb-5">
-                Caso tenha alguma doação a fazer (mobiliário, equipamentos, roupas, alimentos, material de limpeza, etc), entre em contato com nosso setor administrativo e receba as orientações pelo <a href="tel:1129053048" title="(11) 2905-3048" className="font-bold border-b pb-px">(11) 2905-3048</a>
+                Caso tenha alguma doação a fazer (mobiliário, equipamentos, roupas, alimentos, material de limpeza, etc), entre em contato com nosso setor administrativo e receba as orientações pelo <a href="tel:1129053048" title="(11) 2905-3048" className="font-bold border-b pb-px">(11) 2905-3048 (Whatsapp)</a>
               </p>
             </div>
 
@@ -53,7 +53,7 @@ export default function Info() {
               </h2>
 
               <p className="mb-5">
-                A Associação Brasileira de Assistência e Desenvolvimento Social – ABADS (antiga Pestalozzi de São Paulo), fundada em 1952, é uma Instituição sem fins lucrativos, que atende pessoas com Deficiência Intelectual e Autismo. Oferece seus atendimentos beneficentes, para mais de 980 famílias.
+                A Associação Brasileira de Assistência e Desenvolvimento Social – ABADS (antiga Pestalozzi de São Paulo), fundada em 1952, é uma Instituição sem fins lucrativos, que atende pessoas com Deficiência Intelectual e Autismo. Oferece seus atendimentos beneficentes para mais de 980 famílias.
               </p>
 
               <div className="text-center">

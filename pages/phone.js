@@ -39,12 +39,8 @@ export default function Phone() {
                 Doe pelo PIX
               </h2>
 
-              <p className="text-2xl mb-5">
+              <p className="text-2xl">
                 Faça suas doações pelo <span className="font-bold border-b pb-px">PIX</span> utilizando a chave: <span className="inline-block font-bold text-2xl border border-px p-3 mt-3 mx-auto hover:bg-white hover:text-black hover:border-black">doe@abads.org.br</span>
-              </p>
-
-              <p className="text-lg">
-                Em caso de dúvidas, fale conosco pelo e-mail <a href="mail:doador@abads.org.br" title="doador@abads.org.br" className="font-bold border-b pb-px">doador@abads.org.br</a>
               </p>
             </div>
 
