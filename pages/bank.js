@@ -43,22 +43,22 @@ export default function Bank() {
               Doe pelo seu banco
             </h1>
 
+            <div className="flex items-start justify-center flex-col gap-3 bg-white bg-opacity-70 p-5 rounded text-lg boder border-blue-400 border-2">
+              <div>CNPJ: <span className="font-bold block md:inline-block">60.805.975/0001-19</span></div>
+              <div>Favorecido: <span className="font-bold block md:inline-block">Associação Brasileira de Assistência e Desenvolvimento Social – ABADS</span></div>
+            </div>
+
             <div className="grid grid-cols-1 grid-rows-4 gap-5 md:grid-cols-4 md:grid-rows-1 py-3">
 
               {dadosBancarios.map((d,k) => (
-                <div key={k} className="bg-white bg-opacity-80 pt-5 px-5 rounded grid grid-cols-1 grid-rows-3 gap-3 text-lg">
+                <div key={k} className="bg-white bg-opacity-80 pt-5 px-5 rounded grid grid-cols-1 grid-rows-3 gap-3 text-lg boder border-blue-400 border-2">
                   <div>Agência <span className="font-bold block">{d.agencia}</span></div>
                   <div>C/C <span className="font-bold block">{d.conta}</span></div>
                   <div className="font-bold">{d.banco}</div>
                 </div>
               ))}
 
-            </div>
-
-            <div className="flex items-start justify-center flex-col bg-blue-900 bg-opacity-30 p-5 rounded text-lg">
-              <div>CNPJ: <span className="font-bold">60.805.975/0001-19</span></div>
-              <div>Favorecido: <span className="font-bold">Associação Brasileira de Assistência e Desenvolvimento Social – ABADS</span></div>
-            </div>
+            </div>            
           </div>
 
         </main>
