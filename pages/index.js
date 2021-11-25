@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className="container mx-auto mb-5">
-        <h1 className="text-5xl font-thin grid grid-cols-1 grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 gap-5 items-center">
+        <h1 className="text-5xl font-thin grid grid-cols-1 grid-rows-1 mx-3.5 lg:grid-rows-1 lg:grid-cols-2 gap-5 items-center lg:mx-0">
           <div>Faça sua doação <span className="font-light">e Abrace a ABADS</span></div>
           <div className="block h-px bg-black w-full"></div>
         </h1>
