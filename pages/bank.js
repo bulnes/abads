@@ -34,16 +34,16 @@ export default function Bank() {
 
       <section
         style={{ backgroundImage: 'url("/church-of-the-king-j9jZSqfH5YI-unsplash.jpg")' }}
-        className="bg-cover bg-no-repeat bg-center w-full h-screen relative flex items-center justify-center after:bg-blue-500 after:bg-opacity-40 after:w-full after:h-screen after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
+        className="bg-cover bg-no-repeat bg-center w-full h-screen relative flex items-center justify-center after:bg-blue-500 after:bg-opacity-50 after:w-full after:h-screen after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
 
-        <main className="container mx-auto z-50 relative p-10 bg-blue-300 bg-opacity-80 w-full h-full overflow-y-auto md:w-auto md:h-auto">
+        <main className="container mx-auto z-50 relative p-10 bg-black bg-opacity-70 text-white w-full h-full overflow-y-auto md:w-auto md:h-auto">
 
           <div>
-            <h1 className="text-4xl uppercase border-b border-black pb-3 mb-5 font-bold">
+            <h1 className="text-4xl uppercase border-b border-white pb-3 mb-5 font-bold">
               Doe pelo seu banco
             </h1>
 
-            <div className="flex items-start justify-center flex-col gap-3 bg-white bg-opacity-70 p-5 rounded text-lg boder border-blue-400 border-2">
+            <div className="flex items-start justify-center flex-col gap-3 p-5 text-lg boder border-white border hover:bg-white hover:text-black hover:border-black">
               <div>CNPJ: <span className="font-bold block md:inline-block">60.805.975/0001-19</span></div>
               <div>Favorecido: <span className="font-bold block md:inline-block">Associação Brasileira de Assistência e Desenvolvimento Social – ABADS</span></div>
             </div>
@@ -51,7 +51,7 @@ export default function Bank() {
             <div className="grid grid-cols-1 grid-rows-4 gap-5 md:grid-cols-4 md:grid-rows-1 py-3">
 
               {dadosBancarios.map((d,k) => (
-                <div key={k} className="bg-white bg-opacity-80 pt-5 px-5 rounded grid grid-cols-1 grid-rows-3 gap-3 text-lg boder border-blue-400 border-2">
+                <div key={k} className="pt-5 px-5 grid grid-cols-1 grid-rows-3 gap-3 text-lg boder border-white border hover:bg-white hover:text-black hover:border-black">
                   <div>Agência <span className="font-bold block">{d.agencia}</span></div>
                   <div>C/C <span className="font-bold block">{d.conta}</span></div>
                   <div className="font-bold">{d.banco}</div>
