@@ -10,8 +10,8 @@ export default function Bank() {
     conta: '13-002525-9',
     banco: 'Banco Santander'
   },{
-    agencia: '2687-5',
-    conta: '5839-4',
+    agencia: '0312',
+    conta: '0320839-7',
     banco: 'Banco Bradesco'
   },{
     agencia: '0001',
