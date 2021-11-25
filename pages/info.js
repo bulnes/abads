@@ -44,10 +44,6 @@ export default function Info() {
               <p className="text-xl mb-5">
                 Caso tenha alguma doação a fazer (mobiliário, equipamentos, roupas, alimentos, material de limpeza, etc), entre em contato com nosso setor administrativo e receba as orientações pelo <a href="tel:1129053048" title="(11) 2905-3048" className="font-bold border-b pb-px">(11) 2905-3048</a>
               </p>
-
-              <p className="text-xl mb-5">
-                Se preferir, você pode <a href="https://abads.org.br/contato/" title="Escreva aqui a sua mensagem" target="_blank" className="font-bold border-b pb-px">escrevar aqui sua mensagem</a> que retornaremos em breve.
-              </p>
             </div>
 
             {/* Vídeo */}
