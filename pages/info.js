@@ -44,6 +44,10 @@ export default function Info() {
               <p className="text-xl mb-5">
                 Caso tenha alguma doação a fazer (mobiliário, equipamentos, roupas, alimentos, material de limpeza, etc), entre em contato com nosso setor administrativo e receba as orientações pelo <a href="tel:1129053048" title="(11) 2905-3048" className="font-bold border-b pb-px">(11) 2905-3048 (Whatsapp)</a>
               </p>
+
+              <p className="text-xl mb-5">
+                <a className="font-bold border-b pb-px" target="_blank" title="Clique aqui para doar com cartão de cŕedito" href="http://recordtv.r7.com/abads/quadros/entre-em-contato-com-a-abads-26112021">Clique aqui</a> e entre em contato com a ABADS
+              </p>
             </div>
 
             {/* Vídeo */}
@@ -58,7 +62,7 @@ export default function Info() {
 
               <div className="text-center">
                 <div className="relative" style={{ paddingTop: '56.25%' }}>
-                  <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/0aTyj_VPSLc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe className="absolute inset-0 w-full h-full" src="https://player.r7.com/video/i/619ffffe416eb9a4ad001262" width="640" height="360" frameborder="0" loading="lazy" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
