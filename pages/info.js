@@ -18,7 +18,7 @@ export default function Info() {
         style={{ backgroundImage: 'url("/girl-g648dbe2ea_1920.jpg")' }}
         className="bg-cover bg-no-repeat bg-center w-full h-screen relative flex items-center justify-center after:bg-yellow-500 after:bg-opacity-50 after:w-full after:h-screen after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
 
-        <main className="container mx-auto z-50 relative p-10 w-full h-full overflow-y-auto md:w-full md:h-auto">
+        <main className="container mx-auto z-50 relative p-0 md:p-10 w-full h-full overflow-y-auto md:w-full md:h-auto">
 
           <div className="flex flex-col items-stretch justify-between gap-10 lg:flex-row">
 
@@ -62,7 +62,7 @@ export default function Info() {
 
               <div className="text-center">
                 <div className="relative" style={{ paddingTop: '56.25%' }}>
-                  <iframe className="absolute inset-0 w-full h-full" src="https://player.r7.com/video/i/619ffffe416eb9a4ad001262" width="640" height="360" frameborder="0" loading="lazy" allowfullscreen></iframe>
+                  <iframe className="absolute inset-0 w-full h-full" src="https://player.r7.com/video/i/619ffffe416eb9a4ad001262" width="640" height="360" frameBorder="0" loading="lazy" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
