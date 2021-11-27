@@ -27,7 +27,7 @@ export default function Phone() {
 
       <section
         style={{ backgroundImage: 'url("/kuanish-reymbaev-4uAmz2HyPKc-unsplash.jpg")' }}
-        className="bg-cover bg-no-repeat bg-center w-full h-full md:h-screen relative flex items-center justify-center after:bg-green-500 after:bg-opacity-50 after:w-full after:h-full after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
+        className="bg-cover bg-no-repeat bg-center w-full h-full relative flex items-center justify-center after:bg-green-500 after:bg-opacity-50 after:w-full after:h-full after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
 
         <main className="container mx-auto z-50 relative m-10 md:mx-0 w-11/12 md:w-full h-full md:h-auto">
 
