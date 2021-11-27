@@ -16,9 +16,9 @@ export default function Info() {
 
       <section
         style={{ backgroundImage: 'url("/girl-g648dbe2ea_1920.jpg")' }}
-        className="bg-cover bg-no-repeat bg-center w-full h-screen relative flex items-center justify-center after:bg-yellow-500 after:bg-opacity-50 after:w-full after:h-screen after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
+        className="bg-cover bg-no-repeat bg-center w-full h-full md:h-screen relative flex items-center justify-center after:bg-yellow-500 after:bg-opacity-50 after:w-full after:h-screen after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
 
-        <main className="container mx-auto z-50 relative p-0 md:p-10 w-full h-full overflow-y-auto md:w-full md:h-auto">
+        <main className="container mx-auto z-50 relative m-10 md:mx-0 w-11/12 md:w-full h-full overflow-y-auto md:h-auto">
 
           <div className="flex flex-col items-stretch justify-between gap-10 lg:flex-row">
 
@@ -51,16 +51,16 @@ export default function Info() {
             </div>
 
             {/* Vídeo */}
-            <div className="bg-black bg-opacity-70 text-white p-7">
-              <h2 className="text-4xl uppercase border-b border-white pb-3 mb-5 font-bold">
+            <div className="bg-black bg-opacity-70 text-white py-7">
+              <h2 className="text-4xl uppercase border-b border-white mx-7 pb-3 mb-5 font-bold">
                 Quem somos
               </h2>
 
-              <p className="mb-5">
+              <p className="mx-7 mb-5">
                 A Associação Brasileira de Assistência e Desenvolvimento Social – ABADS (antiga Pestalozzi de São Paulo), fundada em 1952, é uma Instituição sem fins lucrativos, que atende pessoas com Deficiência Intelectual e Autismo. Oferece seus atendimentos beneficentes para mais de 980 famílias.
               </p>
 
-              <div className="text-center">
+              <div className="-mb-7 md:mb-0 md:mx-7 text-center">
                 <div className="relative" style={{ paddingTop: '56.25%' }}>
                   <iframe className="absolute inset-0 w-full h-full" src="https://player.r7.com/video/i/619ffffe416eb9a4ad001262" width="640" height="360" frameBorder="0" loading="lazy" allowfullscreen></iframe>
                 </div>

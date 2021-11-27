@@ -16,9 +16,9 @@ export default function Footer() {
 
       <section
         style={{ backgroundImage: 'url("/mi-pham-FtZL0r4DZYk-unsplash.jpg")' }}
-        className="bg-cover bg-no-repeat bg-center w-full h-screen relative flex items-center justify-center after:bg-red-500 after:bg-opacity-50 after:w-full after:h-screen after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
+        className="bg-cover bg-no-repeat bg-center w-full h-full md:h-96 relative flex items-center justify-center after:bg-red-500 after:bg-opacity-50 after:w-full after:h-full after:z-0 after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0">
 
-        <main className="container mx-auto z-50 relative p-10 bg-black bg-opacity-70 text-white w-full h-full overflow-y-auto md:w-auto md:h-auto">
+        <main className="container mx-auto z-50 relative p-10 m-10 md:mx-0 bg-black bg-opacity-70 text-white w-11/12 md:w-full h-full overflow-y-auto md:h-auto">
 
           <div className="grid grid-rows-3 grid-cols-1 gap-5 md:grid-rows-1 md:grid-cols-3">
 
