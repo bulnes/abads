@@ -1,3 +1,3 @@
 module.exports = {
-  assetPrefix: '/abads/',
+  assetPrefix: '/abads/docs/',
 }
