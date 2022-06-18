@@ -1,3 +1,3 @@
 module.exports = {
-  basePath: '/abads/docs',
+  assetPrefix: '/abads/',
 }
