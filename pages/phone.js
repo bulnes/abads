@@ -1,7 +1,5 @@
 import Head from 'next/head'
 
-export const config = { amp: true }
-
 export default function Phone() {
   const phones = [{
     tel: '0500 508 0707',

@@ -6,8 +6,6 @@ import Phone from './phone'
 import Footer from './footer'
 import Social from './social'
 
-export const config = { amp: true }
-
 export default function Full() {
   return (
     <>

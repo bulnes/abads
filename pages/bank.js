@@ -1,7 +1,5 @@
 import Head from 'next/head'
 
-export const config = { amp: true }
-
 export default function Bank() {
   const dadosBancarios = [{
     agencia: '0584-3',
